@@ -33,28 +33,13 @@ $ cp .env.template .env
 
 4. Open and fill the `.env` file and fill it with the configuration for the platforms you want to stream to.
 
-- [Configuring YouTube](#Configuring%20YouTube)
-- [Configuring Twitch](#Configuring%20Twitch)
-- [Configuring Periscope](#Configuring%20Periscope)
+    - [Configuring YouTube](#Configuring%20YouTube)
+    - [Configuring Twitch](#Configuring%20Twitch)
+    - [Configuring Periscope](#Configuring%20Periscope)
 
 ⚠️ &nbsp;**Make sure to use a strong `RTMP_SECRET` if you plan to expose the server to the internet.**
 
 ⚠️ &nbsp;**Avoid changing the `RTMP_AUTH_SERVER` variable unless you know what you're doing.**
-
-```ini
-####################
-# RTMP Auth Server #
-####################
-RTMP_SECRET=ASecretToAvoidOthersFromStreamingThroughYourServer
-
-###############
-# RTMP Server #
-###############
-RTMP_AUTH_SERVER=http://rtmp-auth:19350/
-
-...
-
-```
 
 5. Now let's launch everything with Docker Compose
 
