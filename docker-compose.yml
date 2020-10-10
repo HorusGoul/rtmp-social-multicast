@@ -6,10 +6,5 @@ services:
     ports:
       - "1935:1935"
   rtmp-auth:
-    image: node:12-alpine
-    command: node /auth/index.js
-    expose:
-      - 19350
+    build: ./auth
     env_file: .env
-    volumes:
-      - ./auth:/auth
