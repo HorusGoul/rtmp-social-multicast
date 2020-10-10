@@ -4,8 +4,6 @@ Want to stream to Twitch, Youtube and/or Periscope at the same time? That's what
 
 ## Prerequisites
 
-First of all, the prerequisites:
-
 - Git
 - Docker
 - Docker Compose
