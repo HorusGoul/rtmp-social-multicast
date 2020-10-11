@@ -1,4 +1,4 @@
-# RMTP Social Multicast Server
+# RTMP Social Multicast Server
 
 Want to stream to Twitch, Youtube, or Periscope at the same time? That's what this project allows you!
 
