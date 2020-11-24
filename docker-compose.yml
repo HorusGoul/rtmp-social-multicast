@@ -1,4 +1,5 @@
 version: "3.7"
+
 services:
   rtmp:
     build: .
@@ -8,3 +9,5 @@ services:
   rtmp-auth:
     build: ./auth
     env_file: .env
+  facebook_rtmps:
+    build: ./facebook-tunnel
