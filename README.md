@@ -36,6 +36,7 @@ $ cp .env.template .env
     - [Configuring YouTube](#Configuring%20YouTube)
     - [Configuring Twitch](#Configuring%20Twitch)
     - [Configuring Periscope](#Configuring%20Periscope)
+    - [Configuring Facebook](#Configuring%20Facebook)
 
 ⚠️ &nbsp;**Make sure to use a strong `RTMP_SECRET` if you plan to expose the server to the internet.**
 
@@ -114,6 +115,21 @@ We can also find the `Server URL` that we should place in the **`RTMP_PERISCOPE_
 ⚠️ &nbsp;**Remember setting the `RTMP_PERISCOPE_ENABLED` to `true`**
 
 ---
+
+## Configuring Facebook
+
+_Here is stated how you can get the parameters to fill the **Facebook** section of your `.env` file._
+
+Go to the Facebook Live Producer page following this link: https://www.facebook.com/live/producer/.
+Select proper space you will post your live (your timeline or facebook page). In the main section you will find your `Stream Key`. We should place it
+in the **`RTMP_FACEBOOK_KEY`** variable.
+
+We can also find the `Server URL`, but Facebook at this point uses only one URL: `live-api-s.facebook.com:443`. It is set for SSL tunneling in the stunnel4 config, so there's no need to adjust this.
+
+⚠️ &nbsp;**Remember setting the `RTMP_FACEBOOK_ENABLED` to `true`**
+
+---
+
 
 ## Support me
 
