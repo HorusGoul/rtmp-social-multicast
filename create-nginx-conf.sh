@@ -28,7 +28,7 @@ fi
 FACEBOOK_CONFIG=""
 
 if [ "$RTMP_FACEBOOK_ENABLED" == "true" ] && [ "$RTMP_FACEBOOK_KEY" != "" ]; then
-  TWITCH_CONFIG="
+  FACEBOOK_CONFIG="
     # Facebook
     push $RTMP_FACEBOOK_SERVER$RTMP_FACEBOOK_KEY;
   "
