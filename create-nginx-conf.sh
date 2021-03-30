@@ -24,6 +24,17 @@ if [ "$RTMP_TWITCH_ENABLED" == "true" ] && [ "$RTMP_TWITCH_KEY" != "" ]; then
   "
 fi
 
+
+FACEBOOK_CONFIG=""
+
+if [ "$RTMP_FACEBOOK_ENABLED" == "true" ] && [ "$RTMP_FACEBOOK_KEY" != "" ]; then
+  FACEBOOK_CONFIG="
+    # Facebook
+    push $RTMP_FACEBOOK_SERVER$RTMP_FACEBOOK_KEY;
+  "
+fi
+
+
 YOUTUBE_CONFIG=""
 
 if [ "$RTMP_YOUTUBE_ENABLED" == "true" ] && [ "$RTMP_YOUTUBE_KEY" != "" ]; then
@@ -50,6 +61,7 @@ rtmp {
 
       $PERISCOPE_CONFIG
       $TWITCH_CONFIG
+      $FACEBOOK_CONFIG
       $YOUTUBE_CONFIG
     }
   }
