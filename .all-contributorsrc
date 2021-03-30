@@ -1,0 +1,39 @@
+{
+  "projectName": "rtmp-social-multicast",
+  "projectOwner": "HorusGoul",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "HorusGoul",
+      "name": "Horus Lugo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6759612?v=4",
+      "profile": "https://horus.dev/",
+      "contributions": [
+        "code",
+        "ideas",
+        "doc",
+        "maintenance",
+        "review",
+        "content"
+      ]
+    },
+    {
+      "login": "ivellios",
+      "name": "Janusz Kamieński",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200957?v=4",
+      "profile": "https://github.com/ivellios",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

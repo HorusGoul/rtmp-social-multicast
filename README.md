@@ -136,3 +136,24 @@ We can also find the `Server URL`, but Facebook at this point uses only one URL:
 Feel free to buy me a coffee if you enjoy my content 😄
 
 <a href="https://www.buymeacoffee.com/horus" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" height="48px"></a>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://horus.dev/"><img src="https://avatars.githubusercontent.com/u/6759612?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Horus Lugo</b></sub></a><br /><a href="https://github.com/HorusGoul/rtmp-social-multicast/commits?author=HorusGoul" title="Code">💻</a> <a href="#ideas-HorusGoul" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/HorusGoul/rtmp-social-multicast/commits?author=HorusGoul" title="Documentation">📖</a> <a href="#maintenance-HorusGoul" title="Maintenance">🚧</a> <a href="https://github.com/HorusGoul/rtmp-social-multicast/pulls?q=is%3Apr+reviewed-by%3AHorusGoul" title="Reviewed Pull Requests">👀</a> <a href="#content-HorusGoul" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ivellios"><img src="https://avatars.githubusercontent.com/u/200957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Janusz Kamieński</b></sub></a><br /><a href="https://github.com/HorusGoul/rtmp-social-multicast/commits?author=ivellios" title="Code">💻</a> <a href="https://github.com/HorusGoul/rtmp-social-multicast/commits?author=ivellios" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
